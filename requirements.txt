@@ -1,0 +1,4 @@
+diffusers
+jupyter
+transformers
+accelerate
