@@ -12,11 +12,16 @@ docker build . -t rocm-ml
 To run:
 
 ```sh
-sudo docker run -it --cap-add=SYS_PTRACE --security-opt seccomp=unconfined \
+sudo docker run -it -p 8888:8888 --cap-add=SYS_PTRACE --security-opt seccomp=unconfined \
 --device=/dev/kfd --device=/dev/dri --group-add video \
---ipc=host --shm-size 8G -p 8888:8888 rocm-ml 
+--ipc=host --shm-size 8G rocm-ml 
 ```
 
+Command to start jupyter within docker container:
+
+```sh
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
 
 
 ## References
