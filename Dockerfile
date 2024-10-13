@@ -1,7 +1,7 @@
 FROM rocm/pytorch:latest
 
-ADD build /build
-WORKDIR /build
+# ADD build /build
+# WORKDIR /build
 COPY requirements.txt .
 EXPOSE 8888
 RUN pip install -r requirements.txt
