@@ -8,8 +8,9 @@ To use a gated model such as stable diffusion 3, you must define the environment
 
 ```sh
 export huggingface_api_key=Put_API_Key_Here_With_No_Quotes_Or_Spaces
+```
 
-To build:
+To build the docker image:
 
 ```sh
 docker build . -t rocm-ml
