@@ -1,6 +1,6 @@
 # rocm-ml
 
-This repository builds a docker image to leverage AMD graphics cards for machine learning using the RoCM drivers. These instructions are designed for Linux. I am using Pop OS! and installed the RoCM drivers with [these instructions](https://support.system76.com/articles/rocm/).
+This repository builds a docker image to leverage AMD graphics cards for machine learning using the RoCM drivers. These instructions are designed for Linux. I am using Pop OS! and installed the ROCm drivers with [these instructions](https://support.system76.com/articles/rocm/).
 
 ## Usage
 
